@@ -16,10 +16,10 @@ public class Database {
         return new CommandLineRunner() {
             @Override
             public void run(String... args) throws Exception {
-                Product product = new Product("iporn",2022,2400.0,"");
-                Product product1 = new Product("iporn 13",2022,2400.0,"");
-                logger.info("insert data + "+productRepository.save(product));
-                logger.info("insert data + "+productRepository.save(product1));
+//                Product product = new Product("iporn",2022,2400.0,"");
+//                Product product1 = new Product("iporn 13",2022,2400.0,"");
+//                logger.info("insert data + "+productRepository.save(product));
+//                logger.info("insert data + "+productRepository.save(product1));
             }
         };
     }

@@ -5,7 +5,7 @@ import lombok.*;
 import javax.persistence.*;
 
 @Entity
-//@Table(name = "tblProduct")
+@Table(name = "tblProduct")
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
@@ -15,7 +15,7 @@ public class Product {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id_product;
-//    @Column(nullable = false,unique = true,length = 300)
+    @Column(nullable = false,unique = true,length = 300)
     private String productName;
     private int release_year;
     private Double price;
